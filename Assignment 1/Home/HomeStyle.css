@@ -1,0 +1,88 @@
+body {
+  background: url(/Home/kiwihug-qv05FvdE26k-unsplash.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  height: 100vh;
+}
+
+.navnav {
+  position: absolute;
+  text-align: centre;
+  top: 0px;
+  right: 0px;
+  width: 20%;
+  height: 250vh;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.navnav ul li a {
+  color: rgb(0, 0, 0);
+  padding: 15px 35px;
+  float: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0px;
+  width: 50%;
+  font-size: 20px;
+  display: block;
+  border-bottom: 0.5px solid rgb(46, 46, 46);
+}
+
+.navnav a:hover {
+  background-color: #faebd75d;
+  color: black;
+}
+
+.unit {
+  width: 80%;
+}
+
+.floater {
+  display: block;
+  background-color: rgba(245, 245, 245, 0.825);
+  font-size: larger;
+}
+
+img {
+  width: 1000px;
+  padding: 5px;
+}
+
+img.Chaser {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  float: right;
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+  text-align: centre;
+  width: 33%;
+}
+
+a.active {
+  background: rgba(255, 255, 255, 0.534);
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}

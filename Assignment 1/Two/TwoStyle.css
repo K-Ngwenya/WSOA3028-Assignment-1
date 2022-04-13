@@ -1,0 +1,80 @@
+body {
+  background: url(/Two/tobias-stonjeck-e_ZxKz3_2Nc-unsplash.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: colour;
+  color: white;
+  height: 100vh;
+}
+
+.navnav {
+  position: absolute;
+  text-align: centre;
+  top: 0px;
+  right: 0px;
+  width: 20%;
+  height: 250vh;
+  background-color: rgba(255, 255, 255, 0.397);
+  overflow: hidden;
+}
+
+.navnav ul li a {
+  color: rgb(255, 255, 255);
+  padding: 10px 35px;
+  float: none;
+  text-align: center;
+  border-radius: 50px;
+  width: 50%;
+  font-size: 20px;
+  display: block;
+}
+
+.navnav a:hover {
+  background-color: darkorchid;
+  color: black;
+}
+
+.unit {
+  width: 80%;
+}
+
+img {
+  width: 1000px;
+  padding: 5px;
+}
+
+img.Chaser {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  float: right;
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+  text-align: centre;
+  width: 33%;
+}
+
+a.active {
+  background: rgba(255, 255, 255, 0.534);
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
