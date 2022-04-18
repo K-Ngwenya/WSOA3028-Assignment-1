@@ -7,6 +7,7 @@ body {
   height: 100vh;
 }
 
+
 .blognav {
   position: fixed;
   margin: 0;
@@ -42,7 +43,9 @@ body {
   width: 84%;
   float: right;
   font-size: x-large;
+  line-height: 4vh;
 }
+
 
 form {
   float: right;
@@ -73,4 +76,15 @@ ul {
   background-color: red;
   color: white;
   text-align: center;
+}
+
+.return {
+  bottom: 0px;
+}
+
+a.return {
+  background: rgb(0, 0, 0);
+  color: white;
+ padding: 16px;
+  border-radius: 12px;
 }
