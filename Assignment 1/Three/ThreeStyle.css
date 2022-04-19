@@ -1,52 +1,51 @@
 body {
-  background: url(/Three/tobias-stonjeck-e_ZxKz3_2Nc-unsplash.jpg) no-repeat;
+  background-color: #FFEDED;
+  font-family: Arial, Helvetica, sans-serif;
   background-attachment: fixed;
-  background-size: colour;
-  color: white;
+  background-size: cover;
+  color: rgb(0, 0, 0);
   height: 100vh;
 }
 
-.navnav {
-  position: absolute;
-  text-align: centre;
-  top: 0px;
-  right: 0px;
-  width: 20%;
-  height: 250vh;
-  background-color: rgba(255, 255, 255, 0.397);
-  overflow: hidden;
-}
 
-.navnav ul li a {
-  color: rgb(255, 255, 255);
-  padding: 10px 35px;
-  float: none;
+.blognav {
+  position: fixed;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  border-radius: 50px;
-  width: 50%;
-  font-size: 20px;
-  display: block;
+  top: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
 }
 
-.navnav a:hover {
-  background-color: darkorchid;
+.blognav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  width: 60%;
+  text-decoration: none;
+  border-bottom: 0.5px solid rgb(46, 46, 46);
+}
+
+.blognav a:hover {
+  background-color: #FFEDED;
   color: black;
 }
 
-.unit {
-  width: 80%;
-}
 
-img {
-  width: 1000px;
-  padding: 5px;
-}
-
-img.Chaser {
+.portfolio {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  right: 5px;
+  width: 84%;
+  float: right;
+  font-size: x-large;
+  line-height: 4vh;
 }
+
 
 form {
   float: right;
@@ -55,17 +54,15 @@ form {
 
 td {
   padding: 5px;
-  text-align: centre;
+  text-align:center;
   width: 33%;
 }
 
-.myTable {
-}
-
 a.active {
-  background: rgba(255, 255, 255, 0.534);
-  padding: 10px 30px;
-  border-radius: 50px;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
 }
 
 ul {
@@ -74,10 +71,46 @@ ul {
 
 .footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   background-color: red;
   color: white;
   text-align: center;
 }
+
+.return {
+  bottom: 0px;
+}
+
+a.return {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+img {
+  border: solid 2px;
+}
+
+.style {
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myTable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  ;
+}
+
+.examples {
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
